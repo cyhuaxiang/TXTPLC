@@ -1,0 +1,660 @@
+Dependencies for Project 'project', Target 'Flash': (DO NOT MODIFY !)
+F (..\..\User\app\src\main.c)(0x5A9A6D55)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I..\..\Libraries\CMSIS\Include -I..\..\Libraries\Device\Nuvoton\NUC029xAN\Include -I..\..\Libraries\StdDriver\inc -I..\..\User\app\inc -I..\..\User\bsp\inc -I..\..\User\bsp -I..\..\User\fonts-I E:\FangCunApply\Case\文本PLC一体机\SoftWare\TC_V1.0\Project\MDK-ARM(uV4)\RTE-I d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.0\Device\NUC029AN\Include-I d:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515"-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (..\..\User\bsp\bsp.h)(0x5A798EE6)
+I (..\..\Libraries\Device\Nuvoton\NUC029xAN\Include\NUC029xAN.h)(0x539AB33E)
+I (..\..\Libraries\CMSIS\Include\core_cm0.h)(0x52FDD264)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x52FDD264)
+I (..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x52FDD264)
+I (..\..\Libraries\Device\Nuvoton\NUC029xAN\Include\system_NUC029xAN.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\sys.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\clk.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\adc.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\ebi.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\fmc.h)(0x5A6DDB80)
+I (..\..\Libraries\StdDriver\inc\gpio.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\i2c.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\pwm.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\spi.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\timer.h)(0x5A797B0F)
+I (..\..\Libraries\StdDriver\inc\wdt.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\wwdt.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\uart.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\hdiv.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\acmp.h)(0x539AB33E)
+I (d:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (d:\Keil_v5\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (d:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54C245B8)
+I (..\..\User\bsp\inc\bsp_led.h)(0x511E4AD2)
+I (..\..\User\bsp\inc\bsp_timer.h)(0x5A6C32AF)
+I (..\..\User\bsp\inc\bsp_key.h)(0x5A6E9CCA)
+I (..\..\User\bsp\inc\bsp_uart_fifo.h)(0x5A798EEC)
+I (..\..\User\bsp\inc\bsp_lcd.h)(0x5A7D1739)
+I (..\..\User\app\inc\gui.h)(0x5A6DB4C1)
+I (..\..\User\bsp\inc\bsp_relay595.h)(0x5A97C1EB)
+I (..\..\User\bsp\inc\bsp_mtx_key.h)(0x5A6E9CA1)
+I (..\..\User\bsp\inc\bsp_cpu_flash.h)(0x5A6E7C5A)
+I (..\..\User\app\inc\param.h)(0x5A6EAD4C)
+I (..\..\User\app\inc\main.h)(0x5A6D8EE2)
+I (..\..\User\app\inc\main_run.h)(0x5A6E936B)
+I (..\..\User\app\inc\system_set.h)(0x5A6DCB0C)
+F (..\..\User\app\src\param.c)(0x5A6E7CDC)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I..\..\Libraries\CMSIS\Include -I..\..\Libraries\Device\Nuvoton\NUC029xAN\Include -I..\..\Libraries\StdDriver\inc -I..\..\User\app\inc -I..\..\User\bsp\inc -I..\..\User\bsp -I..\..\User\fonts-I E:\FangCunApply\Case\文本PLC一体机\SoftWare\TC_V1.0\Project\MDK-ARM(uV4)\RTE-I d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.0\Device\NUC029AN\Include-I d:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515"-o .\objects\param.o --omf_browse .\objects\param.crf --depend .\objects\param.d)
+I (..\..\User\bsp\bsp.h)(0x5A798EE6)
+I (..\..\Libraries\Device\Nuvoton\NUC029xAN\Include\NUC029xAN.h)(0x539AB33E)
+I (..\..\Libraries\CMSIS\Include\core_cm0.h)(0x52FDD264)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x52FDD264)
+I (..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x52FDD264)
+I (..\..\Libraries\Device\Nuvoton\NUC029xAN\Include\system_NUC029xAN.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\sys.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\clk.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\adc.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\ebi.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\fmc.h)(0x5A6DDB80)
+I (..\..\Libraries\StdDriver\inc\gpio.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\i2c.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\pwm.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\spi.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\timer.h)(0x5A797B0F)
+I (..\..\Libraries\StdDriver\inc\wdt.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\wwdt.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\uart.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\hdiv.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\acmp.h)(0x539AB33E)
+I (d:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (d:\Keil_v5\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (d:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54C245B8)
+I (..\..\User\bsp\inc\bsp_led.h)(0x511E4AD2)
+I (..\..\User\bsp\inc\bsp_timer.h)(0x5A6C32AF)
+I (..\..\User\bsp\inc\bsp_key.h)(0x5A6E9CCA)
+I (..\..\User\bsp\inc\bsp_uart_fifo.h)(0x5A798EEC)
+I (..\..\User\bsp\inc\bsp_lcd.h)(0x5A7D1739)
+I (..\..\User\app\inc\gui.h)(0x5A6DB4C1)
+I (..\..\User\bsp\inc\bsp_relay595.h)(0x5A97C1EB)
+I (..\..\User\bsp\inc\bsp_mtx_key.h)(0x5A6E9CA1)
+I (..\..\User\bsp\inc\bsp_cpu_flash.h)(0x5A6E7C5A)
+I (..\..\User\app\inc\param.h)(0x5A6EAD4C)
+F (..\..\User\app\src\gui.c)(0x5A794255)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I..\..\Libraries\CMSIS\Include -I..\..\Libraries\Device\Nuvoton\NUC029xAN\Include -I..\..\Libraries\StdDriver\inc -I..\..\User\app\inc -I..\..\User\bsp\inc -I..\..\User\bsp -I..\..\User\fonts-I E:\FangCunApply\Case\文本PLC一体机\SoftWare\TC_V1.0\Project\MDK-ARM(uV4)\RTE-I d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.0\Device\NUC029AN\Include-I d:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515"-o .\objects\gui.o --omf_browse .\objects\gui.crf --depend .\objects\gui.d)
+I (..\..\User\bsp\bsp.h)(0x5A798EE6)
+I (..\..\Libraries\Device\Nuvoton\NUC029xAN\Include\NUC029xAN.h)(0x539AB33E)
+I (..\..\Libraries\CMSIS\Include\core_cm0.h)(0x52FDD264)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x52FDD264)
+I (..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x52FDD264)
+I (..\..\Libraries\Device\Nuvoton\NUC029xAN\Include\system_NUC029xAN.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\sys.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\clk.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\adc.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\ebi.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\fmc.h)(0x5A6DDB80)
+I (..\..\Libraries\StdDriver\inc\gpio.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\i2c.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\pwm.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\spi.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\timer.h)(0x5A797B0F)
+I (..\..\Libraries\StdDriver\inc\wdt.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\wwdt.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\uart.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\hdiv.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\acmp.h)(0x539AB33E)
+I (d:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (d:\Keil_v5\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (d:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54C245B8)
+I (..\..\User\bsp\inc\bsp_led.h)(0x511E4AD2)
+I (..\..\User\bsp\inc\bsp_timer.h)(0x5A6C32AF)
+I (..\..\User\bsp\inc\bsp_key.h)(0x5A6E9CCA)
+I (..\..\User\bsp\inc\bsp_uart_fifo.h)(0x5A798EEC)
+I (..\..\User\bsp\inc\bsp_lcd.h)(0x5A7D1739)
+I (..\..\User\app\inc\gui.h)(0x5A6DB4C1)
+I (..\..\User\bsp\inc\bsp_relay595.h)(0x5A97C1EB)
+I (..\..\User\bsp\inc\bsp_mtx_key.h)(0x5A6E9CA1)
+I (..\..\User\bsp\inc\bsp_cpu_flash.h)(0x5A6E7C5A)
+I (..\..\User\fonts\fonts.h)(0x5A7D18A0)
+F (..\..\User\app\src\main_run.c)(0x5A9A6D4A)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I..\..\Libraries\CMSIS\Include -I..\..\Libraries\Device\Nuvoton\NUC029xAN\Include -I..\..\Libraries\StdDriver\inc -I..\..\User\app\inc -I..\..\User\bsp\inc -I..\..\User\bsp -I..\..\User\fonts-I E:\FangCunApply\Case\文本PLC一体机\SoftWare\TC_V1.0\Project\MDK-ARM(uV4)\RTE-I d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.0\Device\NUC029AN\Include-I d:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515"-o .\objects\main_run.o --omf_browse .\objects\main_run.crf --depend .\objects\main_run.d)
+I (..\..\User\bsp\bsp.h)(0x5A798EE6)
+I (..\..\Libraries\Device\Nuvoton\NUC029xAN\Include\NUC029xAN.h)(0x539AB33E)
+I (..\..\Libraries\CMSIS\Include\core_cm0.h)(0x52FDD264)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x52FDD264)
+I (..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x52FDD264)
+I (..\..\Libraries\Device\Nuvoton\NUC029xAN\Include\system_NUC029xAN.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\sys.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\clk.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\adc.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\ebi.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\fmc.h)(0x5A6DDB80)
+I (..\..\Libraries\StdDriver\inc\gpio.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\i2c.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\pwm.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\spi.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\timer.h)(0x5A797B0F)
+I (..\..\Libraries\StdDriver\inc\wdt.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\wwdt.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\uart.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\hdiv.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\acmp.h)(0x539AB33E)
+I (d:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (d:\Keil_v5\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (d:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54C245B8)
+I (..\..\User\bsp\inc\bsp_led.h)(0x511E4AD2)
+I (..\..\User\bsp\inc\bsp_timer.h)(0x5A6C32AF)
+I (..\..\User\bsp\inc\bsp_key.h)(0x5A6E9CCA)
+I (..\..\User\bsp\inc\bsp_uart_fifo.h)(0x5A798EEC)
+I (..\..\User\bsp\inc\bsp_lcd.h)(0x5A7D1739)
+I (..\..\User\app\inc\gui.h)(0x5A6DB4C1)
+I (..\..\User\bsp\inc\bsp_relay595.h)(0x5A97C1EB)
+I (..\..\User\bsp\inc\bsp_mtx_key.h)(0x5A6E9CA1)
+I (..\..\User\bsp\inc\bsp_cpu_flash.h)(0x5A6E7C5A)
+I (..\..\User\app\inc\param.h)(0x5A6EAD4C)
+I (..\..\User\app\inc\main_run.h)(0x5A6E936B)
+I (..\..\User\app\inc\main.h)(0x5A6D8EE2)
+F (..\..\User\app\src\system_set.c)(0x5A7C2337)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I..\..\Libraries\CMSIS\Include -I..\..\Libraries\Device\Nuvoton\NUC029xAN\Include -I..\..\Libraries\StdDriver\inc -I..\..\User\app\inc -I..\..\User\bsp\inc -I..\..\User\bsp -I..\..\User\fonts-I E:\FangCunApply\Case\文本PLC一体机\SoftWare\TC_V1.0\Project\MDK-ARM(uV4)\RTE-I d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.0\Device\NUC029AN\Include-I d:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515"-o .\objects\system_set.o --omf_browse .\objects\system_set.crf --depend .\objects\system_set.d)
+I (..\..\User\bsp\bsp.h)(0x5A798EE6)
+I (..\..\Libraries\Device\Nuvoton\NUC029xAN\Include\NUC029xAN.h)(0x539AB33E)
+I (..\..\Libraries\CMSIS\Include\core_cm0.h)(0x52FDD264)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x52FDD264)
+I (..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x52FDD264)
+I (..\..\Libraries\Device\Nuvoton\NUC029xAN\Include\system_NUC029xAN.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\sys.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\clk.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\adc.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\ebi.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\fmc.h)(0x5A6DDB80)
+I (..\..\Libraries\StdDriver\inc\gpio.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\i2c.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\pwm.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\spi.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\timer.h)(0x5A797B0F)
+I (..\..\Libraries\StdDriver\inc\wdt.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\wwdt.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\uart.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\hdiv.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\acmp.h)(0x539AB33E)
+I (d:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (d:\Keil_v5\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (d:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54C245B8)
+I (..\..\User\bsp\inc\bsp_led.h)(0x511E4AD2)
+I (..\..\User\bsp\inc\bsp_timer.h)(0x5A6C32AF)
+I (..\..\User\bsp\inc\bsp_key.h)(0x5A6E9CCA)
+I (..\..\User\bsp\inc\bsp_uart_fifo.h)(0x5A798EEC)
+I (..\..\User\bsp\inc\bsp_lcd.h)(0x5A7D1739)
+I (..\..\User\app\inc\gui.h)(0x5A6DB4C1)
+I (..\..\User\bsp\inc\bsp_relay595.h)(0x5A97C1EB)
+I (..\..\User\bsp\inc\bsp_mtx_key.h)(0x5A6E9CA1)
+I (..\..\User\bsp\inc\bsp_cpu_flash.h)(0x5A6E7C5A)
+I (..\..\User\app\inc\main.h)(0x5A6D8EE2)
+I (..\..\User\app\inc\param.h)(0x5A6EAD4C)
+I (..\..\User\app\inc\system_set.h)(0x5A6DCB0C)
+F (..\..\User\bsp\bsp.c)(0x5A7C255D)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I..\..\Libraries\CMSIS\Include -I..\..\Libraries\Device\Nuvoton\NUC029xAN\Include -I..\..\Libraries\StdDriver\inc -I..\..\User\app\inc -I..\..\User\bsp\inc -I..\..\User\bsp -I..\..\User\fonts-I E:\FangCunApply\Case\文本PLC一体机\SoftWare\TC_V1.0\Project\MDK-ARM(uV4)\RTE-I d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.0\Device\NUC029AN\Include-I d:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515"-o .\objects\bsp.o --omf_browse .\objects\bsp.crf --depend .\objects\bsp.d)
+I (..\..\User\bsp\bsp.h)(0x5A798EE6)
+I (..\..\Libraries\Device\Nuvoton\NUC029xAN\Include\NUC029xAN.h)(0x539AB33E)
+I (..\..\Libraries\CMSIS\Include\core_cm0.h)(0x52FDD264)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x52FDD264)
+I (..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x52FDD264)
+I (..\..\Libraries\Device\Nuvoton\NUC029xAN\Include\system_NUC029xAN.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\sys.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\clk.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\adc.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\ebi.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\fmc.h)(0x5A6DDB80)
+I (..\..\Libraries\StdDriver\inc\gpio.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\i2c.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\pwm.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\spi.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\timer.h)(0x5A797B0F)
+I (..\..\Libraries\StdDriver\inc\wdt.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\wwdt.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\uart.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\hdiv.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\acmp.h)(0x539AB33E)
+I (d:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (d:\Keil_v5\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (d:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54C245B8)
+I (..\..\User\bsp\inc\bsp_led.h)(0x511E4AD2)
+I (..\..\User\bsp\inc\bsp_timer.h)(0x5A6C32AF)
+I (..\..\User\bsp\inc\bsp_key.h)(0x5A6E9CCA)
+I (..\..\User\bsp\inc\bsp_uart_fifo.h)(0x5A798EEC)
+I (..\..\User\bsp\inc\bsp_lcd.h)(0x5A7D1739)
+I (..\..\User\app\inc\gui.h)(0x5A6DB4C1)
+I (..\..\User\bsp\inc\bsp_relay595.h)(0x5A97C1EB)
+I (..\..\User\bsp\inc\bsp_mtx_key.h)(0x5A6E9CA1)
+I (..\..\User\bsp\inc\bsp_cpu_flash.h)(0x5A6E7C5A)
+F (..\..\User\bsp\src\bsp_timer.c)(0x5A798D54)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I..\..\Libraries\CMSIS\Include -I..\..\Libraries\Device\Nuvoton\NUC029xAN\Include -I..\..\Libraries\StdDriver\inc -I..\..\User\app\inc -I..\..\User\bsp\inc -I..\..\User\bsp -I..\..\User\fonts-I E:\FangCunApply\Case\文本PLC一体机\SoftWare\TC_V1.0\Project\MDK-ARM(uV4)\RTE-I d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.0\Device\NUC029AN\Include-I d:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515"-o .\objects\bsp_timer.o --omf_browse .\objects\bsp_timer.crf --depend .\objects\bsp_timer.d)
+I (..\..\User\bsp\bsp.h)(0x5A798EE6)
+I (..\..\Libraries\Device\Nuvoton\NUC029xAN\Include\NUC029xAN.h)(0x539AB33E)
+I (..\..\Libraries\CMSIS\Include\core_cm0.h)(0x52FDD264)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x52FDD264)
+I (..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x52FDD264)
+I (..\..\Libraries\Device\Nuvoton\NUC029xAN\Include\system_NUC029xAN.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\sys.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\clk.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\adc.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\ebi.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\fmc.h)(0x5A6DDB80)
+I (..\..\Libraries\StdDriver\inc\gpio.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\i2c.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\pwm.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\spi.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\timer.h)(0x5A797B0F)
+I (..\..\Libraries\StdDriver\inc\wdt.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\wwdt.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\uart.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\hdiv.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\acmp.h)(0x539AB33E)
+I (d:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (d:\Keil_v5\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (d:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54C245B8)
+I (..\..\User\bsp\inc\bsp_led.h)(0x511E4AD2)
+I (..\..\User\bsp\inc\bsp_timer.h)(0x5A6C32AF)
+I (..\..\User\bsp\inc\bsp_key.h)(0x5A6E9CCA)
+I (..\..\User\bsp\inc\bsp_uart_fifo.h)(0x5A798EEC)
+I (..\..\User\bsp\inc\bsp_lcd.h)(0x5A7D1739)
+I (..\..\User\app\inc\gui.h)(0x5A6DB4C1)
+I (..\..\User\bsp\inc\bsp_relay595.h)(0x5A97C1EB)
+I (..\..\User\bsp\inc\bsp_mtx_key.h)(0x5A6E9CA1)
+I (..\..\User\bsp\inc\bsp_cpu_flash.h)(0x5A6E7C5A)
+F (..\..\User\bsp\src\bsp_key.c)(0x5A6E9CA0)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I..\..\Libraries\CMSIS\Include -I..\..\Libraries\Device\Nuvoton\NUC029xAN\Include -I..\..\Libraries\StdDriver\inc -I..\..\User\app\inc -I..\..\User\bsp\inc -I..\..\User\bsp -I..\..\User\fonts-I E:\FangCunApply\Case\文本PLC一体机\SoftWare\TC_V1.0\Project\MDK-ARM(uV4)\RTE-I d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.0\Device\NUC029AN\Include-I d:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515"-o .\objects\bsp_key.o --omf_browse .\objects\bsp_key.crf --depend .\objects\bsp_key.d)
+I (..\..\User\bsp\bsp.h)(0x5A798EE6)
+I (..\..\Libraries\Device\Nuvoton\NUC029xAN\Include\NUC029xAN.h)(0x539AB33E)
+I (..\..\Libraries\CMSIS\Include\core_cm0.h)(0x52FDD264)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x52FDD264)
+I (..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x52FDD264)
+I (..\..\Libraries\Device\Nuvoton\NUC029xAN\Include\system_NUC029xAN.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\sys.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\clk.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\adc.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\ebi.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\fmc.h)(0x5A6DDB80)
+I (..\..\Libraries\StdDriver\inc\gpio.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\i2c.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\pwm.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\spi.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\timer.h)(0x5A797B0F)
+I (..\..\Libraries\StdDriver\inc\wdt.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\wwdt.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\uart.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\hdiv.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\acmp.h)(0x539AB33E)
+I (d:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (d:\Keil_v5\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (d:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54C245B8)
+I (..\..\User\bsp\inc\bsp_led.h)(0x511E4AD2)
+I (..\..\User\bsp\inc\bsp_timer.h)(0x5A6C32AF)
+I (..\..\User\bsp\inc\bsp_key.h)(0x5A6E9CCA)
+I (..\..\User\bsp\inc\bsp_uart_fifo.h)(0x5A798EEC)
+I (..\..\User\bsp\inc\bsp_lcd.h)(0x5A7D1739)
+I (..\..\User\app\inc\gui.h)(0x5A6DB4C1)
+I (..\..\User\bsp\inc\bsp_relay595.h)(0x5A97C1EB)
+I (..\..\User\bsp\inc\bsp_mtx_key.h)(0x5A6E9CA1)
+I (..\..\User\bsp\inc\bsp_cpu_flash.h)(0x5A6E7C5A)
+F (..\..\User\bsp\src\bsp_lcd.c)(0x5A9CFF8B)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I..\..\Libraries\CMSIS\Include -I..\..\Libraries\Device\Nuvoton\NUC029xAN\Include -I..\..\Libraries\StdDriver\inc -I..\..\User\app\inc -I..\..\User\bsp\inc -I..\..\User\bsp -I..\..\User\fonts-I E:\FangCunApply\Case\文本PLC一体机\SoftWare\TC_V1.0\Project\MDK-ARM(uV4)\RTE-I d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.0\Device\NUC029AN\Include-I d:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515"-o .\objects\bsp_lcd.o --omf_browse .\objects\bsp_lcd.crf --depend .\objects\bsp_lcd.d)
+I (..\..\User\bsp\bsp.h)(0x5A798EE6)
+I (..\..\Libraries\Device\Nuvoton\NUC029xAN\Include\NUC029xAN.h)(0x539AB33E)
+I (..\..\Libraries\CMSIS\Include\core_cm0.h)(0x52FDD264)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x52FDD264)
+I (..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x52FDD264)
+I (..\..\Libraries\Device\Nuvoton\NUC029xAN\Include\system_NUC029xAN.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\sys.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\clk.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\adc.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\ebi.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\fmc.h)(0x5A6DDB80)
+I (..\..\Libraries\StdDriver\inc\gpio.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\i2c.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\pwm.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\spi.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\timer.h)(0x5A797B0F)
+I (..\..\Libraries\StdDriver\inc\wdt.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\wwdt.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\uart.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\hdiv.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\acmp.h)(0x539AB33E)
+I (d:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (d:\Keil_v5\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (d:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54C245B8)
+I (..\..\User\bsp\inc\bsp_led.h)(0x511E4AD2)
+I (..\..\User\bsp\inc\bsp_timer.h)(0x5A6C32AF)
+I (..\..\User\bsp\inc\bsp_key.h)(0x5A6E9CCA)
+I (..\..\User\bsp\inc\bsp_uart_fifo.h)(0x5A798EEC)
+I (..\..\User\bsp\inc\bsp_lcd.h)(0x5A7D1739)
+I (..\..\User\app\inc\gui.h)(0x5A6DB4C1)
+I (..\..\User\bsp\inc\bsp_relay595.h)(0x5A97C1EB)
+I (..\..\User\bsp\inc\bsp_mtx_key.h)(0x5A6E9CA1)
+I (..\..\User\bsp\inc\bsp_cpu_flash.h)(0x5A6E7C5A)
+I (..\..\User\fonts\fonts.h)(0x5A7D18A0)
+F (..\..\User\bsp\src\bsp_mtx_key.c)(0x5A7D0F1B)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I..\..\Libraries\CMSIS\Include -I..\..\Libraries\Device\Nuvoton\NUC029xAN\Include -I..\..\Libraries\StdDriver\inc -I..\..\User\app\inc -I..\..\User\bsp\inc -I..\..\User\bsp -I..\..\User\fonts-I E:\FangCunApply\Case\文本PLC一体机\SoftWare\TC_V1.0\Project\MDK-ARM(uV4)\RTE-I d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.0\Device\NUC029AN\Include-I d:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515"-o .\objects\bsp_mtx_key.o --omf_browse .\objects\bsp_mtx_key.crf --depend .\objects\bsp_mtx_key.d)
+I (..\..\User\bsp\bsp.h)(0x5A798EE6)
+I (..\..\Libraries\Device\Nuvoton\NUC029xAN\Include\NUC029xAN.h)(0x539AB33E)
+I (..\..\Libraries\CMSIS\Include\core_cm0.h)(0x52FDD264)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x52FDD264)
+I (..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x52FDD264)
+I (..\..\Libraries\Device\Nuvoton\NUC029xAN\Include\system_NUC029xAN.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\sys.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\clk.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\adc.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\ebi.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\fmc.h)(0x5A6DDB80)
+I (..\..\Libraries\StdDriver\inc\gpio.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\i2c.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\pwm.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\spi.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\timer.h)(0x5A797B0F)
+I (..\..\Libraries\StdDriver\inc\wdt.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\wwdt.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\uart.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\hdiv.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\acmp.h)(0x539AB33E)
+I (d:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (d:\Keil_v5\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (d:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54C245B8)
+I (..\..\User\bsp\inc\bsp_led.h)(0x511E4AD2)
+I (..\..\User\bsp\inc\bsp_timer.h)(0x5A6C32AF)
+I (..\..\User\bsp\inc\bsp_key.h)(0x5A6E9CCA)
+I (..\..\User\bsp\inc\bsp_uart_fifo.h)(0x5A798EEC)
+I (..\..\User\bsp\inc\bsp_lcd.h)(0x5A7D1739)
+I (..\..\User\app\inc\gui.h)(0x5A6DB4C1)
+I (..\..\User\bsp\inc\bsp_relay595.h)(0x5A97C1EB)
+I (..\..\User\bsp\inc\bsp_mtx_key.h)(0x5A6E9CA1)
+I (..\..\User\bsp\inc\bsp_cpu_flash.h)(0x5A6E7C5A)
+F (..\..\User\bsp\src\bsp_cpu_flash.c)(0x5A6E8681)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I..\..\Libraries\CMSIS\Include -I..\..\Libraries\Device\Nuvoton\NUC029xAN\Include -I..\..\Libraries\StdDriver\inc -I..\..\User\app\inc -I..\..\User\bsp\inc -I..\..\User\bsp -I..\..\User\fonts-I E:\FangCunApply\Case\文本PLC一体机\SoftWare\TC_V1.0\Project\MDK-ARM(uV4)\RTE-I d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.0\Device\NUC029AN\Include-I d:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515"-o .\objects\bsp_cpu_flash.o --omf_browse .\objects\bsp_cpu_flash.crf --depend .\objects\bsp_cpu_flash.d)
+I (..\..\User\bsp\bsp.h)(0x5A798EE6)
+I (..\..\Libraries\Device\Nuvoton\NUC029xAN\Include\NUC029xAN.h)(0x539AB33E)
+I (..\..\Libraries\CMSIS\Include\core_cm0.h)(0x52FDD264)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x52FDD264)
+I (..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x52FDD264)
+I (..\..\Libraries\Device\Nuvoton\NUC029xAN\Include\system_NUC029xAN.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\sys.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\clk.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\adc.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\ebi.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\fmc.h)(0x5A6DDB80)
+I (..\..\Libraries\StdDriver\inc\gpio.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\i2c.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\pwm.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\spi.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\timer.h)(0x5A797B0F)
+I (..\..\Libraries\StdDriver\inc\wdt.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\wwdt.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\uart.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\hdiv.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\acmp.h)(0x539AB33E)
+I (d:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (d:\Keil_v5\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (d:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54C245B8)
+I (..\..\User\bsp\inc\bsp_led.h)(0x511E4AD2)
+I (..\..\User\bsp\inc\bsp_timer.h)(0x5A6C32AF)
+I (..\..\User\bsp\inc\bsp_key.h)(0x5A6E9CCA)
+I (..\..\User\bsp\inc\bsp_uart_fifo.h)(0x5A798EEC)
+I (..\..\User\bsp\inc\bsp_lcd.h)(0x5A7D1739)
+I (..\..\User\app\inc\gui.h)(0x5A6DB4C1)
+I (..\..\User\bsp\inc\bsp_relay595.h)(0x5A97C1EB)
+I (..\..\User\bsp\inc\bsp_mtx_key.h)(0x5A6E9CA1)
+I (..\..\User\bsp\inc\bsp_cpu_flash.h)(0x5A6E7C5A)
+F (..\..\User\bsp\src\bsp_relay595.c)(0x5A97C457)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I..\..\Libraries\CMSIS\Include -I..\..\Libraries\Device\Nuvoton\NUC029xAN\Include -I..\..\Libraries\StdDriver\inc -I..\..\User\app\inc -I..\..\User\bsp\inc -I..\..\User\bsp -I..\..\User\fonts-I E:\FangCunApply\Case\文本PLC一体机\SoftWare\TC_V1.0\Project\MDK-ARM(uV4)\RTE-I d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.0\Device\NUC029AN\Include-I d:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515"-o .\objects\bsp_relay595.o --omf_browse .\objects\bsp_relay595.crf --depend .\objects\bsp_relay595.d)
+I (..\..\User\bsp\bsp.h)(0x5A798EE6)
+I (..\..\Libraries\Device\Nuvoton\NUC029xAN\Include\NUC029xAN.h)(0x539AB33E)
+I (..\..\Libraries\CMSIS\Include\core_cm0.h)(0x52FDD264)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x52FDD264)
+I (..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x52FDD264)
+I (..\..\Libraries\Device\Nuvoton\NUC029xAN\Include\system_NUC029xAN.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\sys.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\clk.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\adc.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\ebi.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\fmc.h)(0x5A6DDB80)
+I (..\..\Libraries\StdDriver\inc\gpio.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\i2c.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\pwm.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\spi.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\timer.h)(0x5A797B0F)
+I (..\..\Libraries\StdDriver\inc\wdt.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\wwdt.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\uart.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\hdiv.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\acmp.h)(0x539AB33E)
+I (d:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (d:\Keil_v5\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (d:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54C245B8)
+I (..\..\User\bsp\inc\bsp_led.h)(0x511E4AD2)
+I (..\..\User\bsp\inc\bsp_timer.h)(0x5A6C32AF)
+I (..\..\User\bsp\inc\bsp_key.h)(0x5A6E9CCA)
+I (..\..\User\bsp\inc\bsp_uart_fifo.h)(0x5A798EEC)
+I (..\..\User\bsp\inc\bsp_lcd.h)(0x5A7D1739)
+I (..\..\User\app\inc\gui.h)(0x5A6DB4C1)
+I (..\..\User\bsp\inc\bsp_relay595.h)(0x5A97C1EB)
+I (..\..\User\bsp\inc\bsp_mtx_key.h)(0x5A6E9CA1)
+I (..\..\User\bsp\inc\bsp_cpu_flash.h)(0x5A6E7C5A)
+F (..\..\User\bsp\src\bsp_uart_fifo.c)(0x5A7D0D9E)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I..\..\Libraries\CMSIS\Include -I..\..\Libraries\Device\Nuvoton\NUC029xAN\Include -I..\..\Libraries\StdDriver\inc -I..\..\User\app\inc -I..\..\User\bsp\inc -I..\..\User\bsp -I..\..\User\fonts-I E:\FangCunApply\Case\文本PLC一体机\SoftWare\TC_V1.0\Project\MDK-ARM(uV4)\RTE-I d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.0\Device\NUC029AN\Include-I d:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515"-o .\objects\bsp_uart_fifo.o --omf_browse .\objects\bsp_uart_fifo.crf --depend .\objects\bsp_uart_fifo.d)
+I (..\..\User\bsp\bsp.h)(0x5A798EE6)
+I (..\..\Libraries\Device\Nuvoton\NUC029xAN\Include\NUC029xAN.h)(0x539AB33E)
+I (..\..\Libraries\CMSIS\Include\core_cm0.h)(0x52FDD264)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x52FDD264)
+I (..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x52FDD264)
+I (..\..\Libraries\Device\Nuvoton\NUC029xAN\Include\system_NUC029xAN.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\sys.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\clk.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\adc.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\ebi.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\fmc.h)(0x5A6DDB80)
+I (..\..\Libraries\StdDriver\inc\gpio.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\i2c.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\pwm.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\spi.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\timer.h)(0x5A797B0F)
+I (..\..\Libraries\StdDriver\inc\wdt.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\wwdt.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\uart.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\hdiv.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\acmp.h)(0x539AB33E)
+I (d:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (d:\Keil_v5\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (d:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54C245B8)
+I (..\..\User\bsp\inc\bsp_led.h)(0x511E4AD2)
+I (..\..\User\bsp\inc\bsp_timer.h)(0x5A6C32AF)
+I (..\..\User\bsp\inc\bsp_key.h)(0x5A6E9CCA)
+I (..\..\User\bsp\inc\bsp_uart_fifo.h)(0x5A798EEC)
+I (..\..\User\bsp\inc\bsp_lcd.h)(0x5A7D1739)
+I (..\..\User\app\inc\gui.h)(0x5A6DB4C1)
+I (..\..\User\bsp\inc\bsp_relay595.h)(0x5A97C1EB)
+I (..\..\User\bsp\inc\bsp_mtx_key.h)(0x5A6E9CA1)
+I (..\..\User\bsp\inc\bsp_cpu_flash.h)(0x5A6E7C5A)
+F (..\..\Libraries\Device\Nuvoton\NUC029xAN\Source\ARM\startup_NUC029xAN.s)(0x5A6D7B29)(--cpu Cortex-M0 -g --apcs=interwork -I E:\FangCunApply\Case\文本PLC一体机\SoftWare\TC_V1.0\Project\MDK-ARM(uV4)\RTE-I d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.0\Device\NUC029AN\Include-I d:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 515"--list .\listings\startup_nuc029xan.lst --xref -o .\objects\startup_nuc029xan.o --depend .\objects\startup_nuc029xan.d)
+F (..\..\Libraries\StdDriver\src\clk.c)(0x539AB33E)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I..\..\Libraries\CMSIS\Include -I..\..\Libraries\Device\Nuvoton\NUC029xAN\Include -I..\..\Libraries\StdDriver\inc -I..\..\User\app\inc -I..\..\User\bsp\inc -I..\..\User\bsp -I..\..\User\fonts-I E:\FangCunApply\Case\文本PLC一体机\SoftWare\TC_V1.0\Project\MDK-ARM(uV4)\RTE-I d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.0\Device\NUC029AN\Include-I d:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515"-o .\objects\clk.o --omf_browse .\objects\clk.crf --depend .\objects\clk.d)
+I (..\..\Libraries\Device\Nuvoton\NUC029xAN\Include\NUC029xAN.h)(0x539AB33E)
+I (..\..\Libraries\CMSIS\Include\core_cm0.h)(0x52FDD264)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x52FDD264)
+I (..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x52FDD264)
+I (..\..\Libraries\Device\Nuvoton\NUC029xAN\Include\system_NUC029xAN.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\sys.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\clk.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\adc.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\ebi.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\fmc.h)(0x5A6DDB80)
+I (..\..\Libraries\StdDriver\inc\gpio.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\i2c.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\pwm.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\spi.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\timer.h)(0x5A797B0F)
+I (..\..\Libraries\StdDriver\inc\wdt.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\wwdt.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\uart.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\hdiv.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\acmp.h)(0x539AB33E)
+F (..\..\Libraries\StdDriver\src\gpio.c)(0x539AB33E)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I..\..\Libraries\CMSIS\Include -I..\..\Libraries\Device\Nuvoton\NUC029xAN\Include -I..\..\Libraries\StdDriver\inc -I..\..\User\app\inc -I..\..\User\bsp\inc -I..\..\User\bsp -I..\..\User\fonts-I E:\FangCunApply\Case\文本PLC一体机\SoftWare\TC_V1.0\Project\MDK-ARM(uV4)\RTE-I d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.0\Device\NUC029AN\Include-I d:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515"-o .\objects\gpio.o --omf_browse .\objects\gpio.crf --depend .\objects\gpio.d)
+I (..\..\Libraries\Device\Nuvoton\NUC029xAN\Include\NUC029xAN.h)(0x539AB33E)
+I (..\..\Libraries\CMSIS\Include\core_cm0.h)(0x52FDD264)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x52FDD264)
+I (..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x52FDD264)
+I (..\..\Libraries\Device\Nuvoton\NUC029xAN\Include\system_NUC029xAN.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\sys.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\clk.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\adc.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\ebi.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\fmc.h)(0x5A6DDB80)
+I (..\..\Libraries\StdDriver\inc\gpio.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\i2c.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\pwm.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\spi.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\timer.h)(0x5A797B0F)
+I (..\..\Libraries\StdDriver\inc\wdt.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\wwdt.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\uart.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\hdiv.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\acmp.h)(0x539AB33E)
+F (..\..\Libraries\StdDriver\src\sys.c)(0x539AB33E)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I..\..\Libraries\CMSIS\Include -I..\..\Libraries\Device\Nuvoton\NUC029xAN\Include -I..\..\Libraries\StdDriver\inc -I..\..\User\app\inc -I..\..\User\bsp\inc -I..\..\User\bsp -I..\..\User\fonts-I E:\FangCunApply\Case\文本PLC一体机\SoftWare\TC_V1.0\Project\MDK-ARM(uV4)\RTE-I d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.0\Device\NUC029AN\Include-I d:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515"-o .\objects\sys.o --omf_browse .\objects\sys.crf --depend .\objects\sys.d)
+I (..\..\Libraries\Device\Nuvoton\NUC029xAN\Include\NUC029xAN.h)(0x539AB33E)
+I (..\..\Libraries\CMSIS\Include\core_cm0.h)(0x52FDD264)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x52FDD264)
+I (..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x52FDD264)
+I (..\..\Libraries\Device\Nuvoton\NUC029xAN\Include\system_NUC029xAN.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\sys.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\clk.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\adc.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\ebi.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\fmc.h)(0x5A6DDB80)
+I (..\..\Libraries\StdDriver\inc\gpio.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\i2c.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\pwm.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\spi.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\timer.h)(0x5A797B0F)
+I (..\..\Libraries\StdDriver\inc\wdt.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\wwdt.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\uart.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\hdiv.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\acmp.h)(0x539AB33E)
+F (..\..\Libraries\StdDriver\src\timer.c)(0x5A7978FF)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I..\..\Libraries\CMSIS\Include -I..\..\Libraries\Device\Nuvoton\NUC029xAN\Include -I..\..\Libraries\StdDriver\inc -I..\..\User\app\inc -I..\..\User\bsp\inc -I..\..\User\bsp -I..\..\User\fonts-I E:\FangCunApply\Case\文本PLC一体机\SoftWare\TC_V1.0\Project\MDK-ARM(uV4)\RTE-I d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.0\Device\NUC029AN\Include-I d:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515"-o .\objects\timer.o --omf_browse .\objects\timer.crf --depend .\objects\timer.d)
+I (..\..\Libraries\Device\Nuvoton\NUC029xAN\Include\NUC029xAN.h)(0x539AB33E)
+I (..\..\Libraries\CMSIS\Include\core_cm0.h)(0x52FDD264)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x52FDD264)
+I (..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x52FDD264)
+I (..\..\Libraries\Device\Nuvoton\NUC029xAN\Include\system_NUC029xAN.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\sys.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\clk.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\adc.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\ebi.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\fmc.h)(0x5A6DDB80)
+I (..\..\Libraries\StdDriver\inc\gpio.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\i2c.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\pwm.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\spi.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\timer.h)(0x5A797B0F)
+I (..\..\Libraries\StdDriver\inc\wdt.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\wwdt.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\uart.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\hdiv.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\acmp.h)(0x539AB33E)
+F (..\..\Libraries\StdDriver\src\uart.c)(0x539AB33E)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I..\..\Libraries\CMSIS\Include -I..\..\Libraries\Device\Nuvoton\NUC029xAN\Include -I..\..\Libraries\StdDriver\inc -I..\..\User\app\inc -I..\..\User\bsp\inc -I..\..\User\bsp -I..\..\User\fonts-I E:\FangCunApply\Case\文本PLC一体机\SoftWare\TC_V1.0\Project\MDK-ARM(uV4)\RTE-I d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.0\Device\NUC029AN\Include-I d:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515"-o .\objects\uart.o --omf_browse .\objects\uart.crf --depend .\objects\uart.d)
+I (d:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (..\..\Libraries\Device\Nuvoton\NUC029xAN\Include\NUC029xAN.h)(0x539AB33E)
+I (..\..\Libraries\CMSIS\Include\core_cm0.h)(0x52FDD264)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x52FDD264)
+I (..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x52FDD264)
+I (..\..\Libraries\Device\Nuvoton\NUC029xAN\Include\system_NUC029xAN.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\sys.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\clk.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\adc.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\ebi.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\fmc.h)(0x5A6DDB80)
+I (..\..\Libraries\StdDriver\inc\gpio.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\i2c.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\pwm.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\spi.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\timer.h)(0x5A797B0F)
+I (..\..\Libraries\StdDriver\inc\wdt.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\wwdt.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\uart.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\hdiv.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\acmp.h)(0x539AB33E)
+F (..\..\Libraries\StdDriver\src\retarget.c)(0x539AB33E)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I..\..\Libraries\CMSIS\Include -I..\..\Libraries\Device\Nuvoton\NUC029xAN\Include -I..\..\Libraries\StdDriver\inc -I..\..\User\app\inc -I..\..\User\bsp\inc -I..\..\User\bsp -I..\..\User\fonts-I E:\FangCunApply\Case\文本PLC一体机\SoftWare\TC_V1.0\Project\MDK-ARM(uV4)\RTE-I d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.0\Device\NUC029AN\Include-I d:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515"-o .\objects\retarget.o --omf_browse .\objects\retarget.crf --depend .\objects\retarget.d)
+I (d:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (..\..\Libraries\Device\Nuvoton\NUC029xAN\Include\NUC029xAN.h)(0x539AB33E)
+I (..\..\Libraries\CMSIS\Include\core_cm0.h)(0x52FDD264)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x52FDD264)
+I (..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x52FDD264)
+I (..\..\Libraries\Device\Nuvoton\NUC029xAN\Include\system_NUC029xAN.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\sys.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\clk.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\adc.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\ebi.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\fmc.h)(0x5A6DDB80)
+I (..\..\Libraries\StdDriver\inc\gpio.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\i2c.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\pwm.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\spi.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\timer.h)(0x5A797B0F)
+I (..\..\Libraries\StdDriver\inc\wdt.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\wwdt.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\uart.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\hdiv.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\acmp.h)(0x539AB33E)
+F (..\..\Libraries\StdDriver\src\fmc.c)(0x539AB33E)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I..\..\Libraries\CMSIS\Include -I..\..\Libraries\Device\Nuvoton\NUC029xAN\Include -I..\..\Libraries\StdDriver\inc -I..\..\User\app\inc -I..\..\User\bsp\inc -I..\..\User\bsp -I..\..\User\fonts-I E:\FangCunApply\Case\文本PLC一体机\SoftWare\TC_V1.0\Project\MDK-ARM(uV4)\RTE-I d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.0\Device\NUC029AN\Include-I d:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515"-o .\objects\fmc.o --omf_browse .\objects\fmc.crf --depend .\objects\fmc.d)
+I (d:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (..\..\Libraries\Device\Nuvoton\NUC029xAN\Include\NUC029xAN.h)(0x539AB33E)
+I (..\..\Libraries\CMSIS\Include\core_cm0.h)(0x52FDD264)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x52FDD264)
+I (..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x52FDD264)
+I (..\..\Libraries\Device\Nuvoton\NUC029xAN\Include\system_NUC029xAN.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\sys.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\clk.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\adc.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\ebi.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\fmc.h)(0x5A6DDB80)
+I (..\..\Libraries\StdDriver\inc\gpio.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\i2c.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\pwm.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\spi.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\timer.h)(0x5A797B0F)
+I (..\..\Libraries\StdDriver\inc\wdt.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\wwdt.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\uart.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\hdiv.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\acmp.h)(0x539AB33E)
+F (..\..\Libraries\Device\Nuvoton\NUC029xAN\Source\system_NUC029xAN.c)(0x539AB33E)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I..\..\Libraries\CMSIS\Include -I..\..\Libraries\Device\Nuvoton\NUC029xAN\Include -I..\..\Libraries\StdDriver\inc -I..\..\User\app\inc -I..\..\User\bsp\inc -I..\..\User\bsp -I..\..\User\fonts-I E:\FangCunApply\Case\文本PLC一体机\SoftWare\TC_V1.0\Project\MDK-ARM(uV4)\RTE-I d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.0\Device\NUC029AN\Include-I d:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515"-o .\objects\system_nuc029xan.o --omf_browse .\objects\system_nuc029xan.crf --depend .\objects\system_nuc029xan.d)
+I (d:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\..\Libraries\Device\Nuvoton\NUC029xAN\Include\NUC029xAN.h)(0x539AB33E)
+I (..\..\Libraries\CMSIS\Include\core_cm0.h)(0x52FDD264)
+I (..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x52FDD264)
+I (..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x52FDD264)
+I (..\..\Libraries\Device\Nuvoton\NUC029xAN\Include\system_NUC029xAN.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\sys.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\clk.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\adc.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\ebi.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\fmc.h)(0x5A6DDB80)
+I (..\..\Libraries\StdDriver\inc\gpio.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\i2c.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\pwm.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\spi.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\timer.h)(0x5A797B0F)
+I (..\..\Libraries\StdDriver\inc\wdt.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\wwdt.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\uart.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\hdiv.h)(0x539AB33E)
+I (..\..\Libraries\StdDriver\inc\acmp.h)(0x539AB33E)
+F (..\..\User\fonts\asc12.c)(0x5A7D1844)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I..\..\Libraries\CMSIS\Include -I..\..\Libraries\Device\Nuvoton\NUC029xAN\Include -I..\..\Libraries\StdDriver\inc -I..\..\User\app\inc -I..\..\User\bsp\inc -I..\..\User\bsp -I..\..\User\fonts-I E:\FangCunApply\Case\文本PLC一体机\SoftWare\TC_V1.0\Project\MDK-ARM(uV4)\RTE-I d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.0\Device\NUC029AN\Include-I d:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515"-o .\objects\asc12.o --omf_browse .\objects\asc12.crf --depend .\objects\asc12.d)
+F (..\..\User\fonts\asc16.c)(0x5A7D1854)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I..\..\Libraries\CMSIS\Include -I..\..\Libraries\Device\Nuvoton\NUC029xAN\Include -I..\..\Libraries\StdDriver\inc -I..\..\User\app\inc -I..\..\User\bsp\inc -I..\..\User\bsp -I..\..\User\fonts-I E:\FangCunApply\Case\文本PLC一体机\SoftWare\TC_V1.0\Project\MDK-ARM(uV4)\RTE-I d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.0\Device\NUC029AN\Include-I d:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515"-o .\objects\asc16.o --omf_browse .\objects\asc16.crf --depend .\objects\asc16.d)
+F (..\..\User\fonts\hz12.c)(0x5A7D1860)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I..\..\Libraries\CMSIS\Include -I..\..\Libraries\Device\Nuvoton\NUC029xAN\Include -I..\..\Libraries\StdDriver\inc -I..\..\User\app\inc -I..\..\User\bsp\inc -I..\..\User\bsp -I..\..\User\fonts-I E:\FangCunApply\Case\文本PLC一体机\SoftWare\TC_V1.0\Project\MDK-ARM(uV4)\RTE-I d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.0\Device\NUC029AN\Include-I d:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515"-o .\objects\hz12.o --omf_browse .\objects\hz12.crf --depend .\objects\hz12.d)
+I (..\..\User\fonts\fonts.h)(0x5A7D18A0)
+F (..\..\User\fonts\hz16.c)(0x5A7D186B)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I..\..\Libraries\CMSIS\Include -I..\..\Libraries\Device\Nuvoton\NUC029xAN\Include -I..\..\Libraries\StdDriver\inc -I..\..\User\app\inc -I..\..\User\bsp\inc -I..\..\User\bsp -I..\..\User\fonts-I E:\FangCunApply\Case\文本PLC一体机\SoftWare\TC_V1.0\Project\MDK-ARM(uV4)\RTE-I d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.0\Device\NUC029AN\Include-I d:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515"-o .\objects\hz16.o --omf_browse .\objects\hz16.crf --depend .\objects\hz16.d)
+I (..\..\User\fonts\fonts.h)(0x5A7D18A0)
+F (..\..\User\fonts\hz24.c)(0x5A7D1876)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I..\..\Libraries\CMSIS\Include -I..\..\Libraries\Device\Nuvoton\NUC029xAN\Include -I..\..\Libraries\StdDriver\inc -I..\..\User\app\inc -I..\..\User\bsp\inc -I..\..\User\bsp -I..\..\User\fonts-I E:\FangCunApply\Case\文本PLC一体机\SoftWare\TC_V1.0\Project\MDK-ARM(uV4)\RTE-I d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.0\Device\NUC029AN\Include-I d:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515"-o .\objects\hz24.o --omf_browse .\objects\hz24.crf --depend .\objects\hz24.d)
+I (..\..\User\fonts\fonts.h)(0x5A7D18A0)
+F (..\..\User\fonts\hz32.c)(0x5A7D1885)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I..\..\Libraries\CMSIS\Include -I..\..\Libraries\Device\Nuvoton\NUC029xAN\Include -I..\..\Libraries\StdDriver\inc -I..\..\User\app\inc -I..\..\User\bsp\inc -I..\..\User\bsp -I..\..\User\fonts-I E:\FangCunApply\Case\文本PLC一体机\SoftWare\TC_V1.0\Project\MDK-ARM(uV4)\RTE-I d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.0\Device\NUC029AN\Include-I d:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515"-o .\objects\hz32.o --omf_browse .\objects\hz32.crf --depend .\objects\hz32.d)
+I (..\..\User\fonts\fonts.h)(0x5A7D18A0)
